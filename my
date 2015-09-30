@@ -1,0 +1,13 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: jiangjiacai
+ * Date: 2015/9/29
+ * Time: 21:08
+ */
+
+define('ROOT' , dirname(__FILE__));
+define('COM' ,ROOT.'/commond');
+require('lib/Cli.class.php');
+require('lib/db/MysqliDb.php');
+$cli = new Cli($argv);
